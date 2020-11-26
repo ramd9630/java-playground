@@ -1,0 +1,17 @@
+public class Main
+{
+	public static void main(String[] args) {
+		System.out.println("Below are the Debit Card details using different variables");
+		String cardHolder= "Ramadatta Chakka";
+		long cardNumber= 3457812;
+		int cvv= 234;
+		boolean cardStatus= true;
+		
+		System.out.println("Card Holder "+cardHolder);
+		System.out.println("Card Number "+cardNumber);
+		System.out.println("cvv "+cvv);
+		System.out.println("Is Card Active: "+cardStatus);
+		
+		
+	}
+}
