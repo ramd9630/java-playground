@@ -1,0 +1,19 @@
+public class Main
+{
+	public static void main(String[] args) {
+		System.out.println("**********GroceryItem**********");
+        int itemNo= 1;
+        String productName= "Sugar";
+        byte kilo= 2;
+        float kiloPrice= 40.43f;
+        float finalPrice= (float)(kilo*kiloPrice);
+        boolean cardPayment= false;
+        
+        System.out.println("Item Number: "+itemNo);
+        System.out.println("Product Name: "+productName);
+        System.out.println("Number of kilos: "+kilo);
+        System.out.println("Final price of product "+ finalPrice);
+        System.out.println("Card payment available? "+cardPayment);
+        
+	}
+}
