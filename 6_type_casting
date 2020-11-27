@@ -1,0 +1,17 @@
+public class Main
+{
+	public static void main(String[] args) {
+		System.out.println("**********Type Casting**********");
+        //Widening Casting
+        int integerValue= 33;
+        float valueFloat= integerValue;
+        System.out.println("After conversion of integer value "+valueFloat);
+        
+        //Narrow Widening
+        float kiloPrice= 40.40f;
+        int discountPrice= (int)kiloPrice;
+        System.out.println("After a huge discount to customer "+discountPrice);
+        
+        
+	}
+}
