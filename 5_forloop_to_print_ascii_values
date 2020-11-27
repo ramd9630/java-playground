@@ -1,0 +1,19 @@
+public class Main
+{
+	public static void main(String[] args) {
+		System.out.println("**********Ascii values**********");
+        char[] smallLetters= {'a','c', 'd','g'};
+        char[] capLetters={'A','C','D','G'};
+        for(int letter=0;letter<smallLetters.length;letter++){
+            char a=smallLetters[letter];
+            int asci= smallLetters[letter];
+            System.out.println("Small letter "+a+" Ascii value " +asci);
+        }
+        for(int letter=0;letter<capLetters.length;letter++){
+            char a=capLetters[letter];
+            int asci= capLetters[letter];
+            System.out.println("Small letter "+a+" Ascii value " +asci);
+        }
+        
+	}
+}
