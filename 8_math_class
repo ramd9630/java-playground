@@ -1,0 +1,13 @@
+public class Main
+{
+	public static void main(String[] args) {
+		System.out.println("Hello World");
+		System.out.println("Math Class Basics ");
+		System.out.println("There are several methods in \'Math\' class"
+		+" Few of them are \nmax \nmin \nabs \nsqrt \nrandom");
+		System.out.println("Max method returns the highest values from the given two input values");
+		System.out.println("Big value from the given numbers are"+Math.max(99,12));
+		System.out.print("Small value among the both "+ Math.min(99,12)+"\n");
+		System.out.println("Sqare root of 256 "+Math.sqrt(256));
+	}
+}
