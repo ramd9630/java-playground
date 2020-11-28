@@ -1,0 +1,18 @@
+public class Main
+{
+	public static void main(String[] args) {
+		System.out.println("Hello World");
+		System.out.println("Boolean prints either true or false \nThere are several ways to use boolean expression");
+		boolean upiPayment= true;
+		boolean cashPayment= false;
+		System.out.println("Payment happened thru UPI :"+upiPayment);
+		System.out.println("Payment happened thru cash: "+cashPayment);
+		System.out.println("9 is bigger than 2 : "+ (9>2));
+		System.out.println("9 is bigger than 99 :"+ (9>99));
+		System.out.println("9 is equivalent to 9 :"+ (9==9));
+		
+		
+	    
+	    
+	}
+}
