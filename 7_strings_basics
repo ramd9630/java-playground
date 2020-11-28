@@ -1,0 +1,19 @@
+public class Main
+{
+	public static void main(String[] args) {
+		System.out.println("Hello World");
+		String item1= "Biryani";
+		String item2= "Pulaav";
+		String item3= item2+"Raitha";
+		System.out.println("Length of item3 "+item3.length());
+		System.out.println("item 2 in uppercase"+ item2.toUpperCase());
+		System.out.println("Pulaav is \t free for biryani "+item1.concat(item2));
+		String menu= "\"Pulaav\" \"chicken pulaav\" \"Biryani\"";
+		System.out.println(menu.indexOf("chicken pulaav"));
+		int sno1= 1;
+		String prod1= sno1+item1;
+		System.out.println(prod1);
+		
+		
+	}
+}
