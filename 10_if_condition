@@ -1,0 +1,19 @@
+public class Main
+{
+	public static void main(String[] args) {
+		System.out.println("main activated");
+		float fvalue=3.14f;
+		double dvalue=3.14;
+		if(fvalue==dvalue)
+		System.out.println("if condition is true");
+		else
+		System.out.println("if condition is false");
+	    int a=3;
+	    int b=2;
+	    if(a++ == ++b)
+	    System.out.println("a and b are equal");
+	    else
+	    System.out.println("a and b are not equal");
+	    
+	}
+}
