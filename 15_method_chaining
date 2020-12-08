@@ -1,0 +1,31 @@
+public class Assignment4 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		Assignment4 as4= new Assignment4();
+		as4.m4(1, 2, 3, 4);
+		
+	}
+	public void m1() {
+		System.out.println("I'm default method");
+	}
+	public void m2(boolean t,int x) {
+		System.out.println("I'm two parameterised method");
+	}
+	public void m3(String s, char c, double d) {
+		System.out.println("I'm three parameterised method");
+		
+	}
+	public  void m4(int a, int b, int c, int d) {
+		System.out.println("I'm four parameterised method");
+		this.m1();
+		this.m2(true, 10);
+		this.m5(23.003, 21.4f, 44, 'c', "s");
+		this.m3("SriRam",'a' , 4.66);
+	}
+	public  void m5(double d, float f, int a, char c, String s) {
+		System.out.println("I'm 5 parameterised method");
+	}
+
+}
