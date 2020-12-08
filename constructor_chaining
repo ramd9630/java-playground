@@ -1,0 +1,37 @@
+public class Assignment3 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Assignment3 as=new Assignment3(10,10.23,1,3);
+		
+		
+		
+		
+
+	}
+	public Assignment3(int rNo, String Fname, String Sname, float percentage, int rank ) {
+		
+		System.out.println("I'm 5 parameterised constructor");
+	}
+	public Assignment3() {
+		this(1,"ch","Shyam", 23.21f,6);
+		System.out.println("I'm default constructor");
+	}
+	public Assignment3(int a, int b, int c) {
+		this();
+		System.out.println("I'm 3 parameterised constructor");
+	}
+	public Assignment3(char c) {
+		this(1,2,3);
+		System.out.println("I'm one parameterised constructor");
+	}
+	public Assignment3(String s, char c) {
+		this('a');
+		System.out.println("I'm two parameterised constructor");
+	}
+	public Assignment3(int c,double d, int x, int z) {
+		this("Rama", 'c');
+		System.out.println("I'm 4 parameterised constructor");
+	}
+
+}
